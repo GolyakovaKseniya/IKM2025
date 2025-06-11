@@ -1,9 +1,13 @@
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
-*.h text working-tree-encoding=UTF-8
-*.cpp text working-tree-encoding=UTF-8
+# Установка UTF-8 для всех текстовых файлов
 * text=auto
+# Явное указание кодировки для конкретных расширений
+*.cpp text working-tree-encoding=UTF-8
+*.h text working-tree-encoding=UTF-8
+*.hpp text working-tree-encoding=UTF-8
+*.txt text working-tree-encoding=UTF-8
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
