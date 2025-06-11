@@ -61,3 +61,5 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+*.h text working-tree-encoding=UTF-8
+*.cpp text working-tree-encoding=UTF-8
