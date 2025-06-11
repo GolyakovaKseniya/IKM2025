@@ -24,7 +24,7 @@ int main()
                 try
                 {
                     ExpressionTree = buildExpressionTree(Expression); //Строим дерево выражения
-                    Result = CalculatingеTheExpression(Expression); //Вычисляем выражение
+                    Result = CalculatingTheExpression(Expression); //Вычисляем выражение
                     OutputResult(Result);
                     cout << "Дерево выражения:" << endl;
                     PrintExpressionTree(ExpressionTree); //Выводим дерево в боковом виде

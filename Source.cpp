@@ -142,7 +142,7 @@ double ApplyOperator(double One, double Two, const string& Operation)
 }
 
 //Функция для вычисления выражения в постфиксной записи
-double CalculatingеTheExpression(const string& Expression)
+double CalculatingTheExpression(const string& Expression)
 {
     Stack SStack(100); //Стек на 100 элементов
     string Token;

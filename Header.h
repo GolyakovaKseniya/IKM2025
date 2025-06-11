@@ -64,7 +64,7 @@ bool IsOperator(const string& Token);
 //Функция для выполнения операции
 double ApplyOperator(double One, double Two, const string& Operation);
 //Функция для вычисления выражения в постфиксной записи
-double CalculatingеTheExpression(const string& Expression);
+double CalculatingTheExpression(const string& Expression);
 //Функция для форматированного вывода
 void OutputResult(double Result);
 //Функция для построения дерева выражения
