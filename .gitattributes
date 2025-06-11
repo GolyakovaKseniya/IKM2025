@@ -2,7 +2,8 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-
+*.h text working-tree-encoding=UTF-8
+*.cpp text working-tree-encoding=UTF-8
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
@@ -61,5 +62,3 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-*.h text working-tree-encoding=UTF-8
-*.cpp text working-tree-encoding=UTF-8
