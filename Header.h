@@ -68,7 +68,7 @@ double CalculatingTheExpression(const string& Expression);
 //Функция для форматированного вывода
 void OutputResult(double Result);
 //Функция для построения дерева выражения
-TreeNode* buildExpressionTree(const string& Expression);
+TreeNode* BuildExpressionTree(const string& Expression);
 //Функция для бокового вывода дерева
 void PrintExpressionTree(TreeNode* Root, int Level = 0, bool Flag = false, const string& Expression = "");
 //Функция для освобождения памяти дерева

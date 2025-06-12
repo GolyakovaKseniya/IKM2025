@@ -23,7 +23,7 @@ int main()
                 getline(cin, Expression);
                 try
                 {
-                    ExpressionTree = buildExpressionTree(Expression); //Строим дерево выражения
+                    ExpressionTree = BuildExpressionTree(Expression); //Строим дерево выражения
                     Result = CalculatingTheExpression(Expression); //Вычисляем выражение
                     OutputResult(Result);
                     cout << "Дерево выражения:" << endl;

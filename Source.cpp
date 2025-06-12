@@ -206,7 +206,7 @@ void OutputResult(double Result)
     cout << "Результат: " << fixed << setprecision(3) << Result << endl; // Вывод с 6 знаками после запятой
 }
 //Функция для построения дерева выражения
-TreeNode* buildExpressionTree(const string& Expression)
+TreeNode* BuildExpressionTree(const string& Expression)
 {
     StackNode Stack(100); //Создаем стек для узлов
     stringstream Element(Expression);
