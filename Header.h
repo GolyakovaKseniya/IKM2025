@@ -70,7 +70,8 @@ void OutputResult(double Result);
 //Функция для построения дерева выражения
 TreeNode* BuildExpressionTree(const string& Expression);
 //Функция для бокового вывода дерева
-void PrintExpressionTree(TreeNode* Root, int Level = 0, bool Flag = false, const string& Expression = "");
+void PrintExpressionTree(TreeNode* Root, int Level = 0, bool Flag = false,
+    const string& Expression = "");
 //Функция для освобождения памяти дерева
 void DeleteExpressionTree(TreeNode* Root);
 int GetValidIntegerInput(); //Проверка на ввод

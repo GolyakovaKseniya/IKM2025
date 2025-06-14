@@ -4,7 +4,8 @@ const string& ExpressionError:: Message() const
 {
     return Messages;
 }
-TreeNode::TreeNode(const string& Node) : Value(Node), Left(nullptr), Right(nullptr) {} //Конструктор
+//Конструктор
+TreeNode::TreeNode(const string& Node) : Value(Node), Left(nullptr), Right(nullptr) {}
 
 StackNode::StackNode(int Capacity) : Capacity(Capacity), TopIndex(-1) //Конструктор
 {
@@ -196,14 +197,14 @@ double CalculatingTheExpression(const string& Expression)
     }
     if (OperatorCount < SStack.Size())
     {
-        throw ExpressionError("Ошибка: избыточное количество операторов по сравнению с операндами.");
+        throw ExpressionError("Ошибка: избыточное количество операторов.");
     }
     return SStack.Top();
 }
 //Функция для форматированного вывода
 void OutputResult(double Result)
 {
-    cout << "Результат: " << fixed << setprecision(3) << Result << endl; // Вывод с 6 знаками после запятой
+    cout << "Результат: " << fixed << setprecision(3) << Result << endl;
 }
 //Функция для построения дерева выражения
 TreeNode* BuildExpressionTree(const string& Expression)
